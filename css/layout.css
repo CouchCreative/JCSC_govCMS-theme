@@ -1,0 +1,242 @@
+
+/* ---------- Basic Layout Styles ----------- */
+
+html,
+body,
+#page  {
+  height: 100%;
+}
+
+#page-wrapper {
+  min-height: 100%;
+  min-width: 200px;
+}
+#header div.section,
+#featured div.section,
+#messages div.section,
+#main,
+#triptych,
+#footer-columns,
+#footer {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header div.section {
+  position: relative;
+}
+.region-header {
+  float: right; /* LTR */
+  margin: 0 5px 10px;
+}
+.with-secondary-menu .region-header {
+  margin-top: 3em;
+}
+.without-secondary-menu .region-header {
+  margin-top: 15px;
+}
+#secondary-menu {
+  position: absolute;
+  right: 0; /* LTR */
+  top: 0;
+  width: 480px;
+}
+#content,
+#sidebar-first,
+#sidebar-second,
+.region-triptych-first,
+.region-triptych-middle,
+.region-triptych-last,
+.region-footer-firstcolumn,
+.region-footer-secondcolumn,
+.region-footer-thirdcolumn,
+.region-footer-fourthcolumn {
+  display: inline;
+  float: left; /* LTR */
+  position: relative;
+}
+.one-sidebar #content {
+  width: 720px;
+}
+.two-sidebars #content {
+  width: 480px;
+}
+.no-sidebars #content {
+  width: 960px;
+  float: none;
+}
+#sidebar-first,
+#sidebar-second {
+  width: 240px;
+}
+#main-wrapper {
+  min-height: 300px;
+}
+#content .section,
+.sidebar .section {
+  padding: 0 15px;
+}
+#breadcrumb {
+  margin: 0 15px;
+	display: none;
+}
+.region-triptych-first,
+.region-triptych-middle,
+.region-triptych-last {
+  margin: 20px 20px 30px;
+  width: 280px;
+}
+#footer-wrapper {
+  padding: 35px 5px 30px;
+}
+.region-footer-firstcolumn,
+.region-footer-secondcolumn,
+.region-footer-thirdcolumn,
+.region-footer-fourthcolumn {
+  padding: 0 10px;
+  width: 220px;
+}
+#footer {
+  max-width: 1200px;
+  min-width: 200px;
+}
+
+#footer #block-block-1 {
+	margin: 0;
+	height: 30px;
+}
+
+
+#footer #block-block-2 {
+	float: right;
+	background: url("../images/gov_initiative_logo.png") no-repeat scroll center center;
+	background-size: cover;
+	width: 410px;
+	height: 75px;
+	overflow: hidden;
+	text-indent: -999px;
+}
+@media (min-width: 701px) and (max-width: 999px) {
+	#footer #block-block-2 {
+		float: none;
+	}
+}
+@media (max-width: 700px) {
+	#footer #block-block-2 {
+		float: none;
+		width: 280px;
+		height: 50px;
+		display: block;
+		margin: 0 auto;
+	}
+	#footer #block-block-1 {
+		text-align: center;
+	}
+}
+
+.front #page-title {display:none;}
+
+.partner-logo {
+	display: inline-block;
+	text-indent: -999px;
+	overflow: hidden;
+	margin: 20px;
+}
+@media (max-width: 400px) {
+	.partner-logo {
+		display: block;
+		margin: 30px auto;
+	}
+}
+
+
+.partner-logo.acic {
+	background: url("../images/partner-acic.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 160px; 
+	height: 70px;
+}
+.partner-logo.afp {
+	background: url("../images/partner-afp.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 170px; 
+	height: 80px;
+}
+.partner-logo.baa {
+	background: url("../images/partner-baa.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 81px; 
+	height: 81px;
+}
+.partner-logo.ca {
+	background: url("../images/partner-ca.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 105px; 
+	height: 80px;
+}
+.partner-logo.cb {
+	background: url("../images/partner-cb.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 135px; 
+	height: 90px;
+}
+.partner-logo.cua {
+	background: url("../images/partner-cua.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 100px; 
+	height: 60px;
+}
+.partner-logo.o {
+	background: url("../images/partner-o.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 65px; 
+	height: 93px;
+}
+.partner-logo.cua {
+	background: url("../images/partner-cua.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 100px; 
+	height: 60px;
+}
+.partner-logo.pq {
+	background: url("../images/partner-pq.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 133px; 
+	height: 53px;
+}
+.partner-logo.q {
+	background: url("../images/partner-q.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 140px; 
+	height: 45px;
+}
+.partner-logo.qgcia {
+	background: url("../images/partner-qgcia.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 185px; 
+	height: 50px;
+}
+.partner-logo.qr {
+	background: url("../images/partner-qr.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 125px; 
+	height: 56px;
+}
+.partner-logo.quu {
+	background: url("../images/partner-quu.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 85px; 
+	height: 73px;
+}
+.partner-logo.rt {
+	background: url("../images/partner-rt.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 112px; 
+	height: 25px;
+}
+.partner-logo.t {
+	background: url("../images/partner-t.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 50px; 
+	height: 56px;
+}
