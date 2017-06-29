@@ -1783,3 +1783,182 @@ div.admin-panel .description {
 #footer-wrapper .poll .bar .foreground {
   background-color: #ddd;
 }
+
+
+/* ---------- ALL AISI Style over writes ------------------------------------------------ */
+
+
+
+.node-type-page.aisi-subsite #header{
+	background-color: #1C9986;
+  	background: url("../images/aisi_bkg_header.jpg") repeat scroll left center;
+}
+
+.node-type-page.aisi-subsite #page-wrapper,
+.node-type-page.aisi-subsite #footer-wrapper {
+  background: #2E2E2E;
+}
+
+.node-type-page.aisi-subsite body,
+.node-type-page.aisi-subsite body.overlay {
+  color: #2E2E2E;
+}
+.node-type-page.aisi-subsite h1,
+.node-type-page.aisi-subsite h2{
+	color: #1C9986;
+}
+
+.node-type-page.aisi-subsite h2,
+.node-type-page.aisi-subsite h3{
+	font-weight: bold;
+}
+
+.node-type-page.aisi-subsite #featured {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  padding: 20px 0;
+  margin: 0;
+  background: #2E2E2E;
+  border-top: 10px solid #ffffff;
+	color: #ffffff;
+}
+.node-type-page.aisi-subsite #featured .region-featured {
+  padding: 20px 18px;
+}
+
+.node-type-page.aisi-subsite #featured h2 {
+  font-size: 30px;
+	line-height: 34px;
+	color: #1C9986;
+	text-transform: none;
+}
+@media (max-width: 1000px) {
+	.node-type-page.aisi-subsite #featured h2 {
+  		font-size: 20px;
+		line-height: 22px;
+		text-align: left;
+	}
+}
+
+/* ---------- AISI LOGO --------- */
+.node-type-page.aisi-subsite .region-header {
+	width: 100%;
+}
+
+.node-type-page.aisi-subsite #logo,
+.node-type-page.aisi-subsite #main-menu {
+	display: none;
+}
+#aisi-logo {
+	float: left;
+	padding: 0 0 0 15px;
+	margin: 50px 0;
+}
+#aisi-logo p a {
+	background: url("../images/aisi_logo.png") no-repeat scroll left center;
+	background-size: cover;
+	width: 390px; 
+	height: 150px;
+	text-indent: -999px;
+	overflow: hidden;
+	float: left;
+	display: block;
+}
+@media (min-width: 701px) and (max-width: 1000px) {
+	#aisi-logo p a {
+		width: 300px; 
+		height: 100px;
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 700px) {
+	#aisi-logo {
+		float: none;
+		padding: 0 0 0 0;
+		margin: 30px auto;
+	}
+	#aisi-logo p a {
+		width: 300px; 
+		height: 100px;
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+
+/* ---------- AISI MENU --------- */
+
+#block-superfish-1 {
+	float: right;
+	margin-top: 120px;
+}
+
+.sf-menu.sf-style-default a, .sf-menu.sf-style-default a:visited, .sf-menu.sf-style-default span.nolink {
+    border: none;
+	color: #1C9986;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 10px 15px;
+}
+.sf-menu.sf-style-default li {
+	background-color: #ffffff;
+	margin: 5px;
+	color: #1C9986;
+}
+.sf-menu.sf-style-default li.active-trail, .sf-menu.sf-style-default li:hover, .sf-menu.sf-style-default li.sfHover, .sf-menu.sf-style-default a:focus, .sf-menu.sf-style-default a:hover, .sf-menu.sf-style-default a:active, .sf-menu.sf-style-default span.nolink:hover {
+	background-color: #2E2E2E;
+	color:#ffffff;
+}
+@media (min-width: 701px) and (max-width: 1000px) {
+	#block-superfish-1 {
+		float: right;
+		margin-top: 80px;
+	}
+	.sf-menu.sf-style-default a, .sf-menu.sf-style-default a:visited, .sf-menu.sf-style-default span.nolink {
+		font-size: 14px;
+		padding: 10px 10px;
+	}
+	.sf-menu.sf-style-default li {
+		margin: 2px;
+	}
+}
+@media (max-width: 700px) {
+	#block-superfish-1 {
+		float: none;
+		display: block;
+		margin: 20px auto;
+		width: 290px;
+	}
+	.sf-menu.sf-style-default a, .sf-menu.sf-style-default a:visited, .sf-menu.sf-style-default span.nolink {
+		font-size: 12px;
+		padding: 5px 5px;
+	}
+	.sf-menu.sf-style-default li {
+		margin: 2px;
+	}
+}
+
+#featured .sf-menu.sf-style-default a, #featured .sf-menu.sf-style-default a:visited, #featured .sf-menu.sf-style-default span.nolink {
+    border: 1px solid #1C9986;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 10px 15px;
+}
+#featured .sf-menu.sf-style-default li {
+	background-color: #2E2E2E;
+	margin: 5px;
+	color: #ffffff;
+}
+#featured .sf-menu.sf-style-default li.active-trail, #featured .sf-menu.sf-style-default li:hover, #featured .sf-menu.sf-style-default li.sfHover, #featured .sf-menu.sf-style-default a:focus, #featured .sf-menu.sf-style-default a:hover, #featured .sf-menu.sf-style-default a:active, #featured .sf-menu.sf-style-default span.nolink:hover {
+	background-color: #1C9986;
+	color:#ffffff;
+}
+
+
